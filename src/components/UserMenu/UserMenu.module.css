@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.logOut {
+  padding: 5px 15px 5px;
+  border: none;
+  background: #b074de;
+  border-radius: 5px;
+}
+
+.logOut:hover,
+.logOut:focus {
+  background: #b074de;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #b074de, 0 0 25px #b074de, 0 0 50px #b074de,
+    0 0 100px #b074de;
+}

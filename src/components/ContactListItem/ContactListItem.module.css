@@ -1,0 +1,20 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+}
+.button_delete {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgb(58, 58, 147);
+  border: 1px;
+  border-radius: 5px;
+  color: white;
+  transition: all 500ms;
+}
+
+.button_delete:hover,
+.button_delete:focus {
+  opacity: 1;
+  transform: scale(1.1);
+}
